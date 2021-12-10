@@ -22,11 +22,20 @@ h1, h2 {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .wrapper {
     border: 1px solid #ccc;
     padding: 5px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.wrapper:hover {
+    border: 1px solid #555;
 }
 .container a {
     display: block;
@@ -52,6 +61,10 @@ h1, h2 {
 }
 .subgrid-large {
     width: 600px !important;
+}
+.subgrid-xlarge {
+    width: 600px !important;
+    height: 400px !important;
 }
 .widget-header {
     display: none;
