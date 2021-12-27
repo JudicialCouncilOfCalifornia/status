@@ -67,6 +67,10 @@ h1, h2 {
     width: 600px !important;
     height: 400px !important;
 }
+.subgrid-2xlarge {
+    width: 1200px !important;
+    height: 400px !important;
+}
 .widget-header {
     display: none;
 }
